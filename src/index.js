@@ -1,9 +1,10 @@
-import otherSquare, {add, name} from './utilities'
-import otherScream from './scream'
-
-console.log('index.js')
-console.log(add(32, 1))
+const name = 'Mike'
 console.log(name)
-console.log(otherScream(name))
-console.log(otherSquare(10))
 
+class Hangman {
+	myMethod () {
+		return 'Testing'    
+    }
+}
+const hangman = new Hangman()
+console.log(hangman.myMethod())
